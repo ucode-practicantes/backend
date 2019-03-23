@@ -20,8 +20,7 @@ def upload_data():
     },
     id: "mac del device"
     """
-    message = request.json.get("msg", "")
-    return jsonify(dict(message=message.upper()))
+    return jsonify(dict(label="Walking"))
 
 if __name__ == "__main__":
     app.run()
