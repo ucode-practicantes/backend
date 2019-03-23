@@ -1,1 +1,1 @@
-web: gunicorn ml_module:app
+web: gunicorn -w 4 ml_module:app
