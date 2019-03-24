@@ -1,0 +1,1 @@
+gcloud functions deploy predict --runtime python37 --trigger-event providers/cloud.firestore/eventTypes/document.create --trigger-resource projects/practicantes-ucode/databases/(default)/documents/uploads/{doc_id}

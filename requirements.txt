@@ -1,3 +1,6 @@
 flask
 flask_cors
 gunicorn
+tensorflow==1.13.1
+numpy==1.15.4
+pandas==0.24.0
